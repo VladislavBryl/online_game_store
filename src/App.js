@@ -7,6 +7,7 @@ import { Header } from "./components/header";
 import { HomePage } from "./pages/home-page";
 import { GamePage } from "./pages/game-page";
 import { OrderPage } from "./pages/order-page";
+import { Provider } from "react-redux";
 import { store } from "./store";
 
 function App() {

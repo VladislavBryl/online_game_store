@@ -1,4 +1,5 @@
 import React from "react";
+import { useDispatch, useSelector } from "react-redux";
 import { Button } from "../button";
 import { setItemInCart, deleteItemFromCart } from "../../store/cart/reducer";
 import "./game-buy.css";
@@ -19,12 +20,12 @@ export const GameBuy = ({ game }) => {
 
     return (
         <div className="game-buy">
-            <span className="game-buy__price">{game.price} руб.</span>
+            <span className="game-buy__price">{game.price} грн.</span>
             <Button
                 type={isItemInCart ? "secondary" : "primary" }
                 onClick={handleClick}
             >
-                {isItemInCart ? "Убрать из корзины" : "В Корзину"}
+                {isItemInCart ? "Прибрати з кошику" : "У кошик"}
             </Button>
         </div>
     );

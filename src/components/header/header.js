@@ -7,8 +7,11 @@ export const Header = () => {
     return (
         <div className="header">
             <div className="wrapper">
+                <style>
+                    @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+                </style>
                 <Link to="/" className="header__store-title">
-                    Game Store
+                    UA Game Store
                 </Link>
             </div>
             <div className="wrapper header__cart-btn-wrapper">
