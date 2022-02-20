@@ -103,7 +103,16 @@ const GAMES = [
         price: 500.00,
         id: 11,
     },
+    {
+        image: '/game-covers/Cyberpunk.jpg',
+        title: 'Cyberpunk 2077',
+        genres: ['Кіберпанк', 'РПГ', 'Відкритий світ'],
+        video: 'https://www.youtube.com/embed/LembwKDo1Dk',
+        price: 889.00,
+        id: 12,
+    },
 ]
+
 
 export const HomePage = () => {
     return (
